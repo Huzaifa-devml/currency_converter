@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+ 
+  background-image: url('../explain_currency_conversion_image2.png');
+  background-size: cover;    /* cover entire container */
+  background-position: center; /* center image */
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.box-1{
+  height:15%;
+  width: 40%;
+  background-color:rgb( 36, 33, 32);
+  border-radius: 8px;
+  color: wheat;
+  
+}
+.box-2{
+  height:15%;
+  width: 40%;
+  background-color: rgb( 36, 33, 32);
+  border-radius: 8px;
+  color: wheat;
+}
+.inputwrapper{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.outputwrapper{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.input-component {
+  display: flex;
+  flex-direction: column; /* label on top */
+  gap: 5px; /* space between label and row */
+  width: 100%;
+}
+
+.input-row {
+  display: flex;       /* input + select side by side */
+  gap: 10px;           /* space between input and select */
+  align-items: center;
+}
+
+.input-row input {
+  flex: 1;             /* input takes remaining space */
+  height: 35px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.input-row select {
+  height: 35px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.btn{
+  width: 90px;
+  height:35px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: none;
+}
+
